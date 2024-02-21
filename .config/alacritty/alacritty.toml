@@ -1,0 +1,27 @@
+[[colors.indexed_colors]]
+color = "#983c55"
+index = 16
+
+[colors.primary]
+background = "0x111110"
+foreground = "0xeeffff"
+
+[font]
+size = 11.0
+
+[font.bold_italic]
+family = "jetbrainsmono nerd font"
+style = "Bold Italic"
+
+[font.italic]
+family = "jetbrainsmono nerd font"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono NF"
+style = "Regular"
+
+[window]
+decorations = "none"
+opacity = 0.85
+title = "Alacritty"
