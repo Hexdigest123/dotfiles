@@ -3,23 +3,26 @@
 #
 
 # Spawn terminal
-super + Return
+ctrl + Return
         alacritty
 
 # Spawn terminal + tmux
-super + shift + Return
+ctrl + shift + Return
         alacritty -e "tmux"
+
+super + d
+        discord
 
 # Firefox 
 super + b
-        firefox 
+        firefox
 
 # Thunar
 super + e
         thunar
 
 # Rofi
-super + @space
+ctrl + @space
         ~/.config/rofi/launchers/type-4/launcher.sh
 
 super + v
