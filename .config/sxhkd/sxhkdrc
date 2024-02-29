@@ -10,12 +10,18 @@ ctrl + Return
 ctrl + shift + Return
         alacritty -e "tmux"
 
+ 
+super + t
+        teamspeak3
+
+
 super + d
         discord
 
 # Firefox 
 super + b
         firefox
+
 
 # Thunar
 super + e
@@ -42,6 +48,11 @@ Print
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
+
+
+# remove middle click clipboard action
+~button2
+    echo -n | xsel -n -i
 
 # quit/restart bspwm
 super + alt + {q,r}
