@@ -104,3 +104,14 @@ alias snv="sudo nvim"
 alias lsla="ls -la --color=auto"
 alias lsls="ls -ls"
 alias cdb="cd .."
+alias sshapp="ssh hexdigest@ssh.hexhosting.de"
+alias sshtower="ssh root@tower"
+alias bd="bun --bun dev"
+alias br="bun --bun build"
+alias cl="clear"
+# bun completions
+[ -s "/home/hex/.bun/_bun" ] && source "/home/hex/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
