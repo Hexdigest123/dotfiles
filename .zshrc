@@ -109,6 +109,8 @@ alias sshtower="ssh root@tower"
 alias bd="bun --bun dev"
 alias br="bun --bun build"
 alias cl="clear"
+alias po="poweroff"
+alias spo="sudo shutdown now"
 # bun completions
 [ -s "/home/hex/.bun/_bun" ] && source "/home/hex/.bun/_bun"
 
