@@ -114,6 +114,7 @@ alias nrb="npm run build"
 alias cl="clear"
 alias po="poweroff"
 alias spo="sudo shutdown now"
+alias vencord='sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"'
 # bun completions
 [ -s "/home/hex/.bun/_bun" ] && source "/home/hex/.bun/_bun"
 
