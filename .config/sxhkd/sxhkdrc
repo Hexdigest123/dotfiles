@@ -38,7 +38,7 @@ super + r
         ~/.config/rofi/calculators/type-4/calculator.sh
 
 # Screenshot TODO: requires new keybind
-Print
+F1
         flameshot gui
 
 ###BSPWM KEYBINDINGS###
