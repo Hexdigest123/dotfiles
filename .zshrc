@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias nv="nvim"
-alias snv="sudo nvim"
+alias snv="sudoedit"
 alias lsla="ls -la --color=auto"
 alias lsls="ls -ls"
 alias cdb="cd .."
@@ -122,5 +122,6 @@ alias psc='source .venv/bin/activate'
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+export EDITOR="nvim"
 
 neofetch
