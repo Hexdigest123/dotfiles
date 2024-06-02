@@ -21,6 +21,9 @@ style = "Italic"
 family = "JetBrainsMono NF"
 style = "Regular"
 
+[shell]
+program = "/usr/bin/tmux"
+
 [window]
 decorations = "none"
 opacity = 0.85
